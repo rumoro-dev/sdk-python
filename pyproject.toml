@@ -23,9 +23,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://docs.rumoro.dev"
-Documentation = "https://docs.rumoro.dev"
+Homepage = "https://docs.rumoro.dev/sdks/python"
+Documentation = "https://docs.rumoro.dev/sdks/python"
 Repository = "https://github.com/rumoro-dev/sdk-python"
+Issues = "https://github.com/rumoro-dev/sdk-python/issues"
 
 [dependency-groups]
 dev = ["pytest>=8", "pytest-asyncio>=0.24"]
