@@ -1,6 +1,6 @@
 [project]
 name = "rumoro"
-version = "0.1.2"
+version = "0.1.3"
 description = "Python client for the Rumoro API: social listening for developers and AI agents."
 readme = "README.md"
 license = "MIT"
