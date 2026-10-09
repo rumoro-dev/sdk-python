@@ -1,6 +1,11 @@
 # Rumoro Python SDK
 
-Social listening for developers and AI agents, in Python. [Rumoro](https://rumoro.dev) watches the places people talk about your product, your competitors and your topics, and scores every mention for relevance, sentiment and intent. This package is the official Python client for its API: one object with one call per endpoint, generated from the OpenAPI document. It supports Python 3.11+, sync and async, and is fully typed.
+[![PyPI](https://img.shields.io/pypi/v/rumoro?label=pypi)](https://pypi.org/project/rumoro/)
+[![Python](https://img.shields.io/pypi/pyversions/rumoro)](https://pypi.org/project/rumoro/)
+[![license](https://img.shields.io/pypi/l/rumoro)](./LICENSE)
+[![docs](https://img.shields.io/badge/docs-docs.rumoro.dev-blue)](https://docs.rumoro.dev/sdks/python)
+
+Social listening for developers and AI agents, in Python. [Rumoro](https://rumoro.dev) watches Reddit, X, Hacker News, GitHub, Bluesky, LinkedIn, Stack Overflow, DEV, YouTube, TikTok, Instagram and news for your product, your competitors and your topics, and scores every mention for relevance, sentiment and intent. This package is the official Python client for its API: one object with one call per endpoint, generated from the OpenAPI document. It supports Python 3.11+, sync and async, and is fully typed.
 
 ## Installation
 
