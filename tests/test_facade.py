@@ -54,8 +54,8 @@ def test_requests_key_base_url_enums_instants_and_bodies():
     assert query["platforms"] == ["x"]
 
 
-def test_coerced_lists_the_reference_sdk_leaves_raw():
-    # The reference's facade does not coerce these two, so plain strings fail in its generated code (`.value`).
+def test_coerced_lists_the_generated_code_leaves_raw():
+    # The generated code expects enum members for these two (`.value`), so the facade coerces plain strings first.
     requests, transport = recorded(lambda request: httpx.Response(200, json={"data": [], "truncated": False}) if "mentions" in request.url.path
                                    else httpx.Response(200, text="handle\n", headers={"content-type": "text/csv"}))
     rumoro = Rumoro(KEY, httpx_args={"transport": transport})
