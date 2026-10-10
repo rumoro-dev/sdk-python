@@ -190,7 +190,7 @@ class _Keywords:
           term (required): The word or phrase to monitor. It matches as a whole phrase, ignoring case.
           kind: brand is for your own names, competitor for a rival's, and topic for your market. Share of voice and segments use it.
           platforms: The platforms to search for the term. Leave it out or send null for all platforms. An empty list searches nowhere, for a keyword that only collects reviews and so needs reviewSources.
-          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Driftwood is our deploy tool, not beach wood." Null clears it.
+          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Basil is our deploy tool, not the herb." Null clears it.
           matching: Fields you leave out stay as they are. An empty list clears a field.
           cap: Monthly limit on matched mentions. Omit or null means none.
           groupId: The group to put it in (grp_...). Without it, the workspace's default group is used. Each group can hold a term only once.
@@ -246,7 +246,7 @@ class _Keywords:
           kind: New kind (brand, competitor or topic).
           muted: Muting stops polling and matching. Existing mentions are kept.
           platforms: Sets a new platform list. Null means all platforms. An empty list means none, which works when the keyword has reviewSources and only collects reviews.
-          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Driftwood is our deploy tool, not beach wood." Null clears it.
+          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Basil is our deploy tool, not the herb." Null clears it.
           matching: Fields you leave out stay as they are. An empty list clears a field.
           cap: Sets a new monthly mention cap, or null for no cap. A cap above this month's count resumes a capped keyword right away. A cap at or below the count pauses it.
           groupId: Target group (grp_...). 409 if it already has this term.
@@ -1230,7 +1230,7 @@ class _AsyncKeywords:
           term (required): The word or phrase to monitor. It matches as a whole phrase, ignoring case.
           kind: brand is for your own names, competitor for a rival's, and topic for your market. Share of voice and segments use it.
           platforms: The platforms to search for the term. Leave it out or send null for all platforms. An empty list searches nowhere, for a keyword that only collects reviews and so needs reviewSources.
-          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Driftwood is our deploy tool, not beach wood." Null clears it.
+          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Basil is our deploy tool, not the herb." Null clears it.
           matching: Fields you leave out stay as they are. An empty list clears a field.
           cap: Monthly limit on matched mentions. Omit or null means none.
           groupId: The group to put it in (grp_...). Without it, the workspace's default group is used. Each group can hold a term only once.
@@ -1286,7 +1286,7 @@ class _AsyncKeywords:
           kind: New kind (brand, competitor or topic).
           muted: Muting stops polling and matching. Existing mentions are kept.
           platforms: Sets a new platform list. Null means all platforms. An empty list means none, which works when the keyword has reviewSources and only collects reviews.
-          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Driftwood is our deploy tool, not beach wood." Null clears it.
+          context: Up to 300 characters the classifier reads for this keyword only, in addition to the company profile or the group's description. Say what the term means for you and what to ignore, for example "Basil is our deploy tool, not the herb." Null clears it.
           matching: Fields you leave out stay as they are. An empty list clears a field.
           cap: Sets a new monthly mention cap, or null for no cap. A cap above this month's count resumes a capped keyword right away. A cap at or below the count pauses it.
           groupId: Target group (grp_...). 409 if it already has this term.

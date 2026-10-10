@@ -45,7 +45,7 @@ class Keyword:
             Trustpilot pages and Google Maps places. Empty when there are none.
         context (None | str): Up to 300 characters the classifier reads for this keyword only, in addition to the
             company profile or the group's description. Say what the term means for you and what to ignore, for example
-            "Driftwood is our deploy tool, not beach wood." Null clears it.
+            "Basil is our deploy tool, not the herb." Null clears it.
         matching (KeywordMatching): Rules a post must pass before it is stored as a mention. A post they reject is never
             billed.
         stats (KeywordStats): Counted from this workspace's matches only.

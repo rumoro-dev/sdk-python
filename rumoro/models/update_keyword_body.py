@@ -34,7 +34,7 @@ class UpdateKeywordBody:
             platforms. An empty list means none, which works when the keyword has reviewSources and only collects reviews.
         context (None | str | Unset): Up to 300 characters the classifier reads for this keyword only, in addition to
             the company profile or the group's description. Say what the term means for you and what to ignore, for example
-            "Driftwood is our deploy tool, not beach wood." Null clears it.
+            "Basil is our deploy tool, not the herb." Null clears it.
         matching (UpdateKeywordBodyMatching | Unset): Fields you leave out stay as they are. An empty list clears a
             field.
         cap (None | Unset | UpdateKeywordBodyCapType0): Sets a new monthly mention cap, or null for no cap. A cap above
